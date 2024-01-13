@@ -1,6 +1,16 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/facades/location_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/services/location_service.rb": {
         "lines": [
           1,
@@ -18,8 +28,19 @@
           null,
           null
         ]
+      },
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/poros/location.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1705113714
+    "timestamp": 1705119565
   }
 }

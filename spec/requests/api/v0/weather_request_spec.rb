@@ -2,6 +2,15 @@ require 'rails_helper'
 
 describe 'weather API' do
   it 'sends api data for the city' do
+    city_state_json = File.read('spec/fixtures/city_state.json')
+    stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{Rails.application.credentials.mapquest[:key]}&location=cincinatti,oh").
+         with(
+           headers: {
+          'Accept'=>'*/*',
+          'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+          'User-Agent'=>'Faraday v2.9.0'
+           }).
+         to_return(status: 200, body: city_state_json, headers: {})
 
     get '/api/v0/forecast?location=cincinatti,oh'
 

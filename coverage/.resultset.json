@@ -5,23 +5,34 @@
         "lines": [
           1,
           1,
-          1,
-          1,
+          2,
+          2,
           null,
           null
         ]
       },
-      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/services/location_service.rb": {
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/spec/poros/location_spec.rb": {
         "lines": [
           1,
-          1,
-          1,
-          null,
           null,
           1,
           1,
+          null,
           1,
           null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
           null,
           1,
           1,
@@ -35,12 +46,127 @@
           1,
           null,
           1,
+          3,
+          null,
+          null
+        ]
+      },
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/spec/requests/api/v0/weather_request_spec.rb": {
+        "lines": [
           1,
           null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/spec/services/location_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/services/location_service.rb": {
+        "lines": [
+          1,
+          1,
+          3,
+          null,
+          null,
+          1,
+          3,
+          3,
+          null,
+          null,
+          1,
+          3,
+          null,
+          null
+        ]
+      },
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/controllers/api/v0/forecast_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
           null
         ]
       }
     },
-    "timestamp": 1705119565
+    "timestamp": 1705120190
   }
 }

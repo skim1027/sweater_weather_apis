@@ -1,35 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/controllers/api/v0/forecast_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/facades/location_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/services/location_service.rb": {
         "lines": [
           1,
@@ -47,18 +18,8 @@
           null,
           null
         ]
-      },
-      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/poros/location.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1705111503
+    "timestamp": 1705113714
   }
 }

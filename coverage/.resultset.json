@@ -1,0 +1,21 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/controllers/api/v0/forecast_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1705109600
+  }
+}

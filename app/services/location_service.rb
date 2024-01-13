@@ -1,6 +1,8 @@
 class LocationService
   def conn
-    Faraday.new(url: 'https://www.mapquestapi.com/')
+    Faraday.new(url: 'https://www.mapquestapi.com/') do |f|
+      f.params[:key] = Rails.application.credentials.mapquest[:key]
+    end
   end
 
   def get_url(url)
@@ -9,6 +11,6 @@ class LocationService
   end
 
   def city_state(location)
-    get_url("geocoding/v1/address?key=#{Rails.application.credentials.mapquest[:key]}&location=#{location}")
+    get_url("geocoding/v1/address?location=#{location}")
   end
 end

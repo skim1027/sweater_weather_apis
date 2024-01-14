@@ -11,7 +11,7 @@ describe 'user registration' do
     headers = {"CONTENT_TYPE" => "application/json"}
   
     post '/api/v0/users', headers: headers, params: JSON.generate(user: user_params)
-    require 'pry'; binding.pry
+
     user_info = JSON.parse(response.body, symbolize_names: true)[:data]
 
     expect(response.status).to eq(201)
@@ -24,7 +24,9 @@ describe 'user registration' do
     expect(user_info[:attributes]).to_not have_key(:password)
   end
 
-  it 'does not create a new user if you are already registered'
+  it 'does not create a new user if you are already registered' do
+    
+  end
 
   it 'does not create a new user if password does not match'
 end

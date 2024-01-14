@@ -4,13 +4,15 @@ describe 'user registration' do
   it 'creates a user with post info' do
 
     user_params = {
-              email: "whatever@example.com",
-              password: "password",
-              password_confirmation: "password"
-            }
-    headers = {"CONTENT_TYPE" => "application/json"}
+                    email: "whatever@example.com",
+                    password: "password",
+                    password_confirmation: "password"
+                  }
+    headers = { "CONTENT_TYPE" => "application/json",
+                "ACCEPT" => "application/json"
+              }
   
-    post '/api/v0/users', headers: headers, params: JSON.generate(user: user_params)
+    post '/api/v0/users', headers: headers, params: user_params.to_json
 
     user_info = JSON.parse(response.body, symbolize_names: true)[:data]
 
@@ -25,7 +27,33 @@ describe 'user registration' do
   end
 
   it 'does not create a new user if you are already registered' do
+    user_params = {
+                    email: "whatever@example.com",
+                    password: "password",
+                    password_confirmation: "password"
+                  }
+    headers = { "CONTENT_TYPE" => "application/json",
+                "ACCEPT" => "application/json"
+              }
+  
+    post '/api/v0/users', headers: headers, params: user_params.to_json
+
+    user_params = {
+                    email: "whatever@example.com",
+                    password: "password",
+                    password_confirmation: "password"
+                  }
+    headers = { "CONTENT_TYPE" => "application/json",
+                "ACCEPT" => "application/json"
+              }
+
+    post '/api/v0/users', headers: headers, params: user_params.to_json
     
+    expect(response.status).to eq(422)
+
+    user_info = JSON.parse(response.body, symbolize_names: true)
+    expect(user_info[:errors].first[:status]).to eq("422")
+    expect(user_info[:errors].first[:title]).to eq("User already exist")
   end
 
   it 'does not create a new user if password does not match'

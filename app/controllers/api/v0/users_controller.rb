@@ -7,12 +7,12 @@ class Api::V0::UsersController < ApplicationController
           password: params[:password]
         )
       if existing_user
-        render json: { error: [title: "User already exist"] }, status: :unprocessable_entity
+        render json: { errors: [title: "User already exist", status: "422"]}, status: :unprocessable_entity
       elsif new_user.save
         render json: UserSerializer.new(new_user), status: :created
       end
     else
-      render json: { error: [title: "Password must match"] }, status: :bad_request
+      render json: { errors: [title: "Password must match"] }, status: :bad_request
     end
   end
 end

@@ -23,14 +23,13 @@ describe 'weather API' do
     to_return(status: 200, body: weather, headers: {})
     
     get '/api/v0/forecast?location=cincinatti,oh'
-
     forecast = JSON.parse(response.body, symbolize_names: true)[:data]
     
-    expect(forecast).to be_successful
-    expect(forecast.status).to eq(200)
+    expect(response).to be_successful
+    expect(response.status).to eq(200)
 
     expect(forecast).to have_key(:id)
-    expect(forecast[:id]).to be_null 
+    expect(forecast[:id]).to eq(nil) 
 
     expect(forecast).to have_key(:type)
     expect(forecast[:type]).to be_a(String)

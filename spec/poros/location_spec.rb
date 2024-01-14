@@ -2,24 +2,12 @@ require 'rails_helper'
 
 RSpec.describe Location do
   it 'exist' do
-    attr = {
-      results: [
-        {
-          locations: [
-            {
-              latLng: {
-                lat: 30,
-                lng: 30
-              }
-            }
-          ]
-        }
-      ]
-    }
-
-    location = Location.new(attr)
+    attr = File.read('spec/fixtures/city_state.json')
+    attr_json = JSON.parse(attr, symbolize_names: true)
+    location = Location.new(attr_json)
 
     expect(location).to be_a(Location)
-    expect(location.lat_lon).to eq('30,30')
+    require 'pry'; binding.pry
+    expect(location.lat_lon).to eq('38.89037,-77.03196')
   end
 end

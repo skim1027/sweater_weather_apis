@@ -1,15 +1,23 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/services/weather_service.rb": {
+      "/Users/sooyungkim/Desktop/Turing/3Mod/projects/sweater_weather_apis/app/poros/weather.rb": {
         "lines": [
           1,
           1,
           1,
           1,
+          1,
           null,
           null,
-          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           1,
           1,
           1,
@@ -17,11 +25,36 @@
           null,
           1,
           1,
+          1,
+          5,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          48,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
           null,
           null
         ]
       }
     },
-    "timestamp": 1705170424
+    "timestamp": 1705191421
   }
 }

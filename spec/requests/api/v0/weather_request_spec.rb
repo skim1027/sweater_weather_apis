@@ -23,7 +23,7 @@ describe 'weather API' do
     to_return(status: 200, body: weather, headers: {})
     
     get '/api/v0/forecast?location=cincinatti,oh'
-require 'pry'; binding.pry
+
     forecast = JSON.parse(response.body, symbolize_names: true)[:data]
     
     expect(forecast).to be_successful

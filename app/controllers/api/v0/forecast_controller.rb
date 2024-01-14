@@ -6,6 +6,5 @@ class Api::V0::ForecastController < ApplicationController
     weather = WeatherSerializer.new(WeatherFacade.new.location_weather(lat_lon))
 
     render json: weather
-  # require 'pry'; binding.pry    
   end
 end

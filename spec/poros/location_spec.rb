@@ -7,7 +7,6 @@ RSpec.describe Location do
     location = Location.new(attr_json)
 
     expect(location).to be_a(Location)
-    require 'pry'; binding.pry
     expect(location.lat_lon).to eq('38.89037,-77.03196')
   end
 end

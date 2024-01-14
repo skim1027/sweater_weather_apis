@@ -8,7 +8,13 @@ RSpec.describe Weather do
     expect(dc_weather).to be_a(Weather)
     expect(dc_weather.id).to eq(nil)
     expect(dc_weather.current_weather).to be_a(Hash)
+    expect(dc_weather.current_weather[:last_updated]).to eq('2024-01-12 16:30')
+    expect(dc_weather.current_weather[:temperature]).to eq(47.8)
     expect(dc_weather.daily_weather).to be_an(Array)
+    expect(dc_weather.daily_weather[0][:sunrise]).to eq('07:27 AM')
+    expect(dc_weather.daily_weather[0][:sunset]).to eq('05:07 PM')
     expect(dc_weather.hourly_weather).to be_an(Array)
+    expect(dc_weather.hourly_weather[0][:time]).to eq('00:00')
+    expect(dc_weather.hourly_weather[0][:temperature]).to eq(42.1)
   end
 end

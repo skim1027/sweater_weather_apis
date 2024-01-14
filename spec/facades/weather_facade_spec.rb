@@ -16,8 +16,8 @@ describe WeatherFacade do
 
       expect(dc_weather.id).to eq(nil)
       expect(dc_weather.current_weather).to be_a(Hash)
-      require 'pry'; binding.pry
       expect(dc_weather.daily_weather).to be_an(Array)
+      
     end
   end
 end

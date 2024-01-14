@@ -38,7 +38,7 @@ class Weather
     hourly = []
     @data[:forecast][:forecastday][0][:hour].each do |each_hr|
       hourly << {
-        date: DateTime.parse(each_hr[:time]).strftime("%H:%M"),
+        time: DateTime.parse(each_hr[:time]).strftime("%H:%M"),
         temperature: each_hr[:temp_f],
         conditions: each_hr[:condition][:text],
         icon: each_hr[:condition][:icon]

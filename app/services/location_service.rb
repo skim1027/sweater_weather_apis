@@ -13,4 +13,8 @@ class LocationService
   def city_state(location)
     get_url("geocoding/v1/address?location=#{location}")
   end
+
+  def directions(from, to)
+    get_url("directions/v2/route?from=#{from}&to=#{to}")
+  end
 end

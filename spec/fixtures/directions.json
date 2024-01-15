@@ -1,0 +1,757 @@
+{
+  "route": {
+      "sessionId": "ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car",
+      "realTime": 67151,
+      "distance": 1290.6339,
+      "time": 65965,
+      "formattedTime": "18:19:25",
+      "hasHighway": true,
+      "hasTollRoad": false,
+      "hasBridge": true,
+      "hasSeasonalClosure": false,
+      "hasTunnel": true,
+      "hasFerry": false,
+      "hasUnpaved": true,
+      "hasTimedRestriction": false,
+      "hasCountryCross": false,
+      "legs": [
+          {
+              "index": 0,
+              "hasTollRoad": false,
+              "hasHighway": true,
+              "hasBridge": true,
+              "hasUnpaved": true,
+              "hasTunnel": true,
+              "hasSeasonalClosure": false,
+              "hasFerry": false,
+              "hasCountryCross": false,
+              "hasTimedRestriction": false,
+              "distance": 1290.6339,
+              "time": 67151,
+              "formattedTime": "18:39:11",
+              "origIndex": 0,
+              "origNarrative": "",
+              "destIndex": 0,
+              "destNarrative": "",
+              "maneuvers": [
+                  {
+                      "index": 0,
+                      "distance": 0.0193,
+                      "narrative": "Head toward Cherokee St on W Colfax Ave (I-70-BL E). Go for 102 ft.",
+                      "time": 12,
+                      "direction": 8,
+                      "directionName": "East",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:12",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.74001,
+                          "lng": -104.99202
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-70-BL",
+                          "US-40",
+                          "US-287",
+                          "W Colfax Ave"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=39.74001,-104.99202|marker-1||39.74001,-104.99166|marker-2||&center=39.74001,-104.99184&defaultMarker=none&zoom=16&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 1,
+                      "distance": 0.9861,
+                      "narrative": "Make a U-Turn at Cherokee St onto W Colfax Ave (I-70-BL W). Go for 1.0 mi.",
+                      "time": 198,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:03:18",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.74001,
+                          "lng": -104.99166
+                      },
+                      "turnType": 9,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-70-BL",
+                          "US-40",
+                          "US-287",
+                          "W Colfax Ave"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=39.74001,-104.99166|marker-2||39.740360000000024,-105.00995999999999|marker-3||&center=39.74018500000001,-105.00081&defaultMarker=none&zoom=13&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 2,
+                      "distance": 71.1023,
+                      "narrative": "Take ramp onto I-25 N (N Valley Hwy) toward Ft Collins. Go for 71.1 mi.",
+                      "time": 3785,
+                      "direction": 1,
+                      "directionName": "North",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "01:03:05",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.740360000000024,
+                          "lng": -105.00995999999999
+                      },
+                      "turnType": 12,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-25",
+                          "US-87",
+                          "N Valley Hwy"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=39.740360000000024,-105.00995999999999|marker-3||40.75144999999999,-104.99239999999982|marker-4||&center=40.24590500000001,-105.0011799999999&defaultMarker=none&zoom=6&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 3,
+                      "distance": 0.2597,
+                      "narrative": "Take exit 281 toward Owl Canyon Road. Go for 0.3 mi.",
+                      "time": 48,
+                      "direction": 1,
+                      "directionName": "North",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:48",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.75144999999999,
+                          "lng": -104.99239999999982
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=40.75144999999999,-104.99239999999982|marker-4||40.75508,-104.99113999999982|marker-5||&center=40.753265,-104.99176999999982&defaultMarker=none&zoom=14&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 4,
+                      "distance": 6.553,
+                      "narrative": "Turn left onto E County Road 70 (CR-70). Go for 6.6 mi.",
+                      "time": 466,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:07:46",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.75508,
+                          "lng": -104.99113999999982
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "CR-70",
+                          "E County Road 70",
+                          "E CR-70",
+                          "W CR-70",
+                          "W County Road 70"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=40.75508,-104.99113999999982|marker-5||40.75507000000002,-105.11483999999986|marker-6||&center=40.755075000000005,-105.05298999999984&defaultMarker=none&zoom=10&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 5,
+                      "distance": 1.1769,
+                      "narrative": "Take the 1st exit from roundabout onto CR-19 toward County Rd 19/US-287. Go for 1.2 mi.",
+                      "time": 88,
+                      "direction": 2,
+                      "directionName": "Northwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:01:28",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.75507000000002,
+                          "lng": -105.11483999999986
+                      },
+                      "turnType": 28,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "CR-19"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=40.75507000000002,-105.11483999999986|marker-6||40.770540000000025,-105.12191999999995|marker-7||&center=40.76280500000002,-105.1183799999999&defaultMarker=none&zoom=12&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 6,
+                      "distance": 3.8134,
+                      "narrative": "Continue on W CR-72 (CR-72). Go for 3.8 mi.",
+                      "time": 273,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:04:33",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.770540000000025,
+                          "lng": -105.12191999999995
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "CR-72",
+                          "W CR-72",
+                          "Owl Canyon Rd",
+                          "W County Road 72"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=40.770540000000025,-105.12191999999995|marker-7||40.761240000000015,-105.17653000000008|marker-8||&center=40.76589000000002,-105.14922500000002&defaultMarker=none&zoom=11&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 7,
+                      "distance": 21.8269,
+                      "narrative": "Turn right onto US Highway 287 (US-287). Go for 21.8 mi.",
+                      "time": 1196,
+                      "direction": 2,
+                      "directionName": "Northwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:19:56",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.761240000000015,
+                          "lng": -105.17653000000008
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-287",
+                          "US Highway 287",
+                          "N Highway 287"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=40.761240000000015,-105.17653000000008|marker-8||40.99778000000007,-105.41275000000007|marker-9||&center=40.87951000000004,-105.29464000000007&defaultMarker=none&zoom=8&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 8,
+                      "distance": 24.4553,
+                      "narrative": "Continue on US Highway 287 (US-287). Go for 24.5 mi.",
+                      "time": 1304,
+                      "direction": 2,
+                      "directionName": "Northwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:21:44",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.99778000000007,
+                          "lng": -105.41275000000007
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-287",
+                          "US Highway 287",
+                          "S US Highway 287",
+                          "S 3rd St"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=40.99778000000007,-105.41275000000007|marker-9||41.29781,-105.59473000000001|marker-10||&center=41.14779500000003,-105.50374000000005&defaultMarker=none&zoom=8&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 9,
+                      "distance": 313.1947,
+                      "narrative": "Take ramp onto I-80 W toward Rawlins. Go for 313 mi.",
+                      "time": 15882,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "04:24:42",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.29781,
+                          "lng": -105.59473000000001
+                      },
+                      "turnType": 12,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-80",
+                          "US-30",
+                          "US-287",
+                          "WY-789",
+                          "US-191",
+                          "US-189"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=41.29781,-105.59473000000001|marker-10||41.24808999999983,-111.04663000000023|marker-11||&center=41.27294999999991,-108.32068000000012&defaultMarker=none&zoom=4&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 10,
+                      "distance": 29.302,
+                      "narrative": "Continue on I-80 W. Go for 29.3 mi.",
+                      "time": 1431,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:23:51",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.24808999999983,
+                          "lng": -111.04663000000023
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-80"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=41.24808999999983,-111.04663000000023|marker-11||40.97203999999987,-111.43713000000052|marker-12||&center=41.11006499999985,-111.24188000000038&defaultMarker=none&zoom=8&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 11,
+                      "distance": 38.5244,
+                      "narrative": "Take exit 168 toward Ogden onto I-84 W. Go for 38.5 mi.",
+                      "time": 2045,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:34:05",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.97203999999987,
+                          "lng": -111.43713000000052
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-84"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=40.97203999999987,-111.43713000000052|marker-12||41.182969999999905,-112.01089000000069|marker-13||&center=41.07750499999989,-111.7240100000006&defaultMarker=none&zoom=7&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 12,
+                      "distance": 39.0948,
+                      "narrative": "Take the exit onto I-15 N/I-84 W. Go for 39.1 mi.",
+                      "time": 1888,
+                      "direction": 1,
+                      "directionName": "North",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:31:28",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.182969999999905,
+                          "lng": -112.01089000000069
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-84",
+                          "I-15"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=41.182969999999905,-112.01089000000069|marker-13||41.700929999999914,-112.18463000000077|marker-14||&center=41.441949999999906,-112.09776000000073&defaultMarker=none&zoom=7&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 13,
+                      "distance": 42.1631,
+                      "narrative": "Keep left onto I-84 W toward Boise. Go for 42.2 mi.",
+                      "time": 2068,
+                      "direction": 2,
+                      "directionName": "Northwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:34:28",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.700929999999914,
+                          "lng": -112.18463000000077
+                      },
+                      "turnType": 17,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-84",
+                          "UT-30"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=41.700929999999914,-112.18463000000077|marker-14||41.999319999999976,-112.8324900000009|marker-15||&center=41.85012499999995,-112.50856000000084&defaultMarker=none&zoom=7&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 14,
+                      "distance": 275.7409,
+                      "narrative": "Continue on I-84 W. Go for 276 mi.",
+                      "time": 13395,
+                      "direction": 2,
+                      "directionName": "Northwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "03:43:15",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.999319999999976,
+                          "lng": -112.8324900000009
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-84",
+                          "US-30",
+                          "ID-25",
+                          "US-26",
+                          "US-20",
+                          "Idaho Medal of Honor Hwy",
+                          "ID-55"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=41.999319999999976,-112.8324900000009|marker-15||44.007339999999836,-116.94122000000165|marker-16||&center=43.003329999999906,-114.88685500000128&defaultMarker=none&zoom=5&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 15,
+                      "distance": 24.6771,
+                      "narrative": "Continue on I-84 W (Old Oregon Trail Hwy). Go for 24.7 mi.",
+                      "time": 1280,
+                      "direction": 2,
+                      "directionName": "Northwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:21:20",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.007339999999836,
+                          "lng": -116.94122000000165
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-84",
+                          "Old Oregon Trail Hwy",
+                          "S I 84 N",
+                          "US-30"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=44.007339999999836,-116.94122000000165|marker-16||44.28729999999979,-117.21905000000197|marker-17||&center=44.14731999999981,-117.0801350000018&defaultMarker=none&zoom=8&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 16,
+                      "distance": 8.1903,
+                      "narrative": "Take exit 353 toward Huntington onto US-30 (Huntington Hwy). Go for 8.2 mi.",
+                      "time": 720,
+                      "direction": 2,
+                      "directionName": "Northwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:12:00",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.28729999999979,
+                          "lng": -117.21905000000197
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-30",
+                          "Huntington Hwy",
+                          "US Hwy 30",
+                          "Old OR-30 E",
+                          "E Oregon Trail Blvd",
+                          "E Washington St",
+                          "Washington St",
+                          "Snake Riv-Mormon Basn BCK Cntry Bywy",
+                          "W Oregon Trail Blvd",
+                          "Old Oregon Trl",
+                          "Old Oregon Trail Blvd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=44.28729999999979,-117.21905000000197|marker-17||44.38038999999981,-117.30237000000197|marker-18||&center=44.3338449999998,-117.26071000000198&defaultMarker=none&zoom=10&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 17,
+                      "distance": 0.0416,
+                      "narrative": "Turn left toward I-84 W/US-30 W/Baker City. Go for 220 ft.",
+                      "time": 5,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:05",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.38038999999981,
+                          "lng": -117.30237000000197
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=44.38038999999981,-117.30237000000197|marker-18||44.3806699999998,-117.30311000000198|marker-19||&center=44.38052999999981,-117.30274000000198&defaultMarker=none&zoom=16&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 18,
+                      "distance": 342.1425,
+                      "narrative": "Take ramp onto I-84 W (Old Oregon Trail Hwy) toward US-30 W/Baker City. Go for 342 mi.",
+                      "time": 18051,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "05:00:51",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.3806699999998,
+                          "lng": -117.30311000000198
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-84",
+                          "US-30",
+                          "Old Oregon Trail Hwy",
+                          "Snake Riv-Mormon Basn BCK Cntry Bywy",
+                          "Baker-Copperfield Hwy",
+                          "Grande Tour Route",
+                          "US-395",
+                          "Columbia River Hwy",
+                          "Banfield Expy"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=44.3806699999998,-117.30311000000198|marker-19||45.52534999999978,-122.66226000000378|marker-20||&center=44.95300999999979,-119.98268500000287&defaultMarker=none&zoom=4&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 19,
+                      "distance": 41.5219,
+                      "narrative": "Take the left exit toward Salem onto I-5 S (Pacific Hwy). Go for 41.5 mi.",
+                      "time": 2397,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:39:57",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 45.52534999999978,
+                          "lng": -122.66226000000378
+                      },
+                      "turnType": 15,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-5",
+                          "Pacific Hwy",
+                          "Marquam Brg",
+                          "Boone Brg"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=45.52534999999978,-122.66226000000378|marker-20||45.00539999999973,-122.99670000000395|marker-21||&center=45.26537499999976,-122.82948000000387&defaultMarker=none&zoom=7&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 20,
+                      "distance": 4.7398,
+                      "narrative": "Take exit 260A toward Salem Parkway onto OR-99E-BR (Dr MLK Jr Pkwy). Go for 4.7 mi.",
+                      "time": 441,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:07:21",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 45.00539999999973,
+                          "lng": -122.99670000000395
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "OR-99E-BR",
+                          "Dr MLK Jr Pkwy",
+                          "Salem Hwy",
+                          "OR-99E",
+                          "Commercial St NE"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=45.00539999999973,-122.99670000000395|marker-21||44.94714999999971,-123.0370600000041|marker-22||&center=44.97627499999972,-123.01688000000402&defaultMarker=none&zoom=10&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 21,
+                      "distance": 0.727,
+                      "narrative": "Turn slightly right onto Salem Hwy (OR-99E-BR S) toward OR-22 E/OR-99E-BR. Go for 0.7 mi.",
+                      "time": 128,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:02:08",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.94714999999971,
+                          "lng": -123.0370600000041
+                      },
+                      "turnType": 1,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "OR-99E-BR",
+                          "Salem Hwy",
+                          "Front St NE",
+                          "OR-22",
+                          "Front St SE",
+                          "Trade St SE"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=44.94714999999971,-123.0370600000041|marker-22||44.938479999999714,-123.0414500000041|marker-23||&center=44.94281499999971,-123.0392550000041&defaultMarker=none&zoom=13&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 22,
+                      "distance": 0.3809,
+                      "narrative": "Turn right onto Commercial St SE toward S. Salem. Go for 0.4 mi.",
+                      "time": 50,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:50",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.938479999999714,
+                          "lng": -123.0414500000041
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Commercial St SE"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=OrCccgHYPCjW7ZoRWbfeqVHjZJ0iqh7t&size=225,160&locations=44.938479999999714,-123.0414500000041|marker-23||44.93325999999971,-123.04389000000411|marker-24||&center=44.93586999999971,-123.04267000000411&defaultMarker=none&zoom=14&session=ALQA_v___wEAAQA3AQAAeNpjMGdkYGRiYGBgz0gtSrVKzhXlNJYGchkUTLbv4LA6GWa6qcgpBkYzYAEwjRcTgiVgYkzxfQ0aG25-jpfphtAMOIAXd2bxZFYg4w83Y1MII4MDE1zKgbuBQwnkEE6gmCIDN0xcwAGmAMM0D7A8mMkB9gMQQ93ECHcaTJ8ASIwFqliEsQHGQQcgF3UAjVJoYFjQosDIqMjYwtRxlIEJAAtcJJPQNjS6:car"
+                  },
+                  {
+                      "index": 23,
+                      "distance": 0,
+                      "narrative": "Arrive at Commercial St SE. Your destination is on the left.",
+                      "time": 0,
+                      "direction": 0,
+                      "directionName": "None",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:00",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.93325999999971,
+                          "lng": -123.04389000000411
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": []
+                  }
+              ]
+          }
+      ],
+      "options": {
+          "routeType": "FASTEST",
+          "narrativeType": "text",
+          "enhancedNarrative": false,
+          "walkingSpeed": -1,
+          "highwayEfficiency": 22,
+          "avoids": false,
+          "generalize": -1,
+          "shapeFormat": "raw",
+          "unit": "M",
+          "locale": "en_US",
+          "useTraffic": false,
+          "timeType": 0,
+          "dateType": 0,
+          "doReverseGeocode": true,
+          "manMaps": true,
+          "sideOfStreetDisplay": true
+      },
+      "boundingBox": {
+          "ul": {
+              "lat": 45.84069999999993,
+              "lng": -123.04389000000411
+          },
+          "lr": {
+              "lat": 39.74001,
+              "lng": -104.97869999999996
+          }
+      },
+      "name": "I-84 and I-80",
+      "maxRoutes": "",
+      "locations": [
+          {
+              "street": "",
+              "adminArea6": "",
+              "adminArea6Type": "Neighborhood",
+              "adminArea5": "Denver",
+              "adminArea5Type": "City",
+              "adminArea4": "Denver",
+              "adminArea4Type": "County",
+              "adminArea3": "CO",
+              "adminArea3Type": "State",
+              "adminArea1": "US",
+              "adminArea1Type": "Country",
+              "postalCode": "",
+              "geocodeQualityCode": "A5XAX",
+              "geocodeQuality": "CITY",
+              "dragPoint": false,
+              "sideOfStreet": "N",
+              "linkId": "0",
+              "unknownInput": "",
+              "type": "s",
+              "latLng": {
+                  "lat": 39.74001,
+                  "lng": -104.99202
+              },
+              "displayLatLng": {
+                  "lat": 39.74001,
+                  "lng": -104.99202
+              },
+              "mapUrl": ""
+          },
+          {
+              "street": "",
+              "adminArea6": "",
+              "adminArea6Type": "Neighborhood",
+              "adminArea5": "",
+              "adminArea5Type": "City",
+              "adminArea4": "",
+              "adminArea4Type": "County",
+              "adminArea3": "OR",
+              "adminArea3Type": "State",
+              "adminArea1": "US",
+              "adminArea1Type": "Country",
+              "postalCode": "",
+              "geocodeQualityCode": "A3XAX",
+              "geocodeQuality": "STATE",
+              "dragPoint": false,
+              "sideOfStreet": "N",
+              "linkId": "0",
+              "unknownInput": "",
+              "type": "s",
+              "latLng": {
+                  "lat": 44.93326,
+                  "lng": -123.04382
+              },
+              "displayLatLng": {
+                  "lat": 44.93326,
+                  "lng": -123.04382
+              },
+              "mapUrl": ""
+          }
+      ],
+      "locationSequence": [
+          0,
+          1
+      ]
+  },
+  "info": {
+      "statuscode": 0,
+      "copyright": {
+          "text": "© 2024 MapQuest, Inc.",
+          "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+          "imageAltText": "© 2024 MapQuest, Inc."
+      },
+      "messages": []
+  }
+}

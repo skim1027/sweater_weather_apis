@@ -46,4 +46,11 @@ class Weather
     end
     hourly
   end
+
+  def munchies_weather
+    id = nil
+    { summary: @data[:current][:condition][:text],
+      temperature: @data[:current][:temp_f]
+    }
+  end
 end

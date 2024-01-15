@@ -21,7 +21,16 @@ describe 'road_trip' do
      'User-Agent'=>'Faraday v2.9.0'
       }).
     to_return(status: 200, body: lat_lon, headers: {})
-    
+    weather = File.read('spec/fixtures/washington_dc.json')
+    stub_request(:get, "http://api.weatherapi.com/v1/forecast.json?days=5&key=8361d3424a244c8a891212331241201&q=38.89037,-77.03196").
+    with(
+      headers: {
+     'Accept'=>'*/*',
+     'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+     'User-Agent'=>'Faraday v2.9.0'
+      }).
+    to_return(status: 200, body: weather, headers: {})
+
     user = User.create(email: "whatever@example.com", password: "password")
 
     request = {
@@ -36,7 +45,7 @@ describe 'road_trip' do
     }
 
     post '/api/v0/road_trip', headers: headers, params: request.to_json
-
+require 'pry'; binding.pry
     expect(response.status).to eq(200)
 
     trip_info = JSON.parse(response.body, symbolize_names: true)[:data]

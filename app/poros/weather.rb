@@ -46,4 +46,12 @@ class Weather
     end
     hourly
   end
+
+  def weather_at_eta
+    weather_data = {
+      datetime: @data[:forecast][:forecastday][0][:hour][0][:time],
+      temperate: @data[:forecast][:forecastday][0][:hour][0][:temp_f],
+      condition: @data[:forecast][:forecastday][0][:hour][0][:condition][:text]
+    }
+  end
 end

@@ -1,8 +1,11 @@
 class Weather
-  attr_reader :id
+  attr_reader :id, :munchies_weather
   def initialize(data)
     @data = data
     @id = nil
+    @munchies_weather = { summary: @data[:current][:condition][:text],
+    temperature: @data[:current][:temp_f]
+    }
   end
   
   def current_weather
@@ -47,10 +50,10 @@ class Weather
     hourly
   end
 
-  def munchies_weather
-    id = nil
-    { summary: @data[:current][:condition][:text],
-      temperature: @data[:current][:temp_f]
-    }
-  end
+  # def munchies_weather
+  #   id = nil
+  #   { summary: @data[:current][:condition][:text],
+  #     temperature: @data[:current][:temp_f]
+  #   }
+  # end
 end

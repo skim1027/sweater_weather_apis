@@ -3,8 +3,8 @@ class Api::V0::ForecastController < ApplicationController
     location = params[:location]
 
     lat_lon = LocationFacade.new.city_state(location).lat_lon
-    weather = WeatherSerializer.new(WeatherFacade.new.location_weather(lat_lon).munchies_weather)
+    weather = WeatherSerializer.new(WeatherFacade.new.location_weather(lat_lon))
 
-    render json: weather
+    render json: weather, status: :ok
   end
 end

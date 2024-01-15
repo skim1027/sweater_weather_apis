@@ -1,5 +1,5 @@
 class Weather
-  attr_reader :id
+  attr_reader :id, :data
   def initialize(data)
     @data = data
     @id = nil
@@ -47,11 +47,26 @@ class Weather
     hourly
   end
 
-  def weather_at_eta
+  def weather_at_eta(hrs)
+    temp = nil
+    condition = nil
+    new_hrs = hrs + ":00"
+    @data[:forecast][:forecastday].each do |day, value|
+      if new_hrs.include?(day[:date]) 
+        day[:hour].each do |each|
+          if new_hrs == each[:time] 
+            temp = each[:temp_f]
+            condition = each[:condition][:text]
+          end
+        end
+      end
+    end
+    temp
+    condition
     weather_data = {
-      datetime: @data[:forecast][:forecastday][0][:hour][0][:time],
-      temperate: @data[:forecast][:forecastday][0][:hour][0][:temp_f],
-      condition: @data[:forecast][:forecastday][0][:hour][0][:condition][:text]
+      datetime: new_hrs,
+      temperate: temp,
+      condition: condition
     }
   end
 end

@@ -8,10 +8,34 @@ class Api::V0::RoadTripController < ApplicationController
       total_travel_time = LocationFacade.new.directions(from, to).travel_time
       hours = LocationFacade.new.directions(from, to).time_in_hrs
       eta_time = (DateTime.now + hours.hours).strftime("%Y-%m-%d %H")
-      weather = WeatherFacade.new.location_weather(lat_lon).weather_at_eta
-      x = TestPoro.new({from: from, to: to, total_travel_time: total_travel_time, weather: weather})
-
-      render json: TestSerializer.new(x), status: :ok
+      weather = WeatherFacade.new.location_weather(lat_lon).weather_at_eta(eta_time)
+      render json: RoadTripSerializer.data(weather, total_travel_time, from, to), status: :ok
+    else
+      render json: { errors: [title: "Please provide correct API key", status: "400"] }, status: :bad_request
     end
   end
+
+  # if user is not there, return error, direction !=, then error, 
+
+  # private
+
+  # def lat_lon(location)
+  #   LocationFacade.new.city_state(location).lat_lon
+  # end
+
+  # def total_travel_time(from, to)
+  #   LocationFacade.new.directions(from, to).travel_time
+  # end
+
+  # def hours(from, to)
+  #   LocationFacade.new.directions(from, to).time_in_hrs
+  # end
+
+  # def weather(lat_lon)
+  #   WeatherFacade.new.location_weather(lat_lon).weather_at_eta
+  # end
+  
+  # def eta_time(hours)
+  #   (DateTime.now + hours.hours).strftime("%Y-%m-%d %H")
+  # end
 end

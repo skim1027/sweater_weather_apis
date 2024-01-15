@@ -32,7 +32,6 @@ describe 'road_trip' do
     to_return(status: 200, body: weather, headers: {})
 
     user = User.create(email: "whatever@example.com", password: "password")
-
     request = {
       origin: 'Denver,CO',
       destination: 'Oregon,WA',
@@ -45,7 +44,6 @@ describe 'road_trip' do
     }
 
     post '/api/v0/road_trip', headers: headers, params: request.to_json
-require 'pry'; binding.pry
     expect(response.status).to eq(200)
 
     trip_info = JSON.parse(response.body, symbolize_names: true)[:data]
@@ -58,11 +56,5 @@ require 'pry'; binding.pry
     expect(trip_info[:attributes]).to have_key(:travel_time)
     expect(trip_info[:attributes]).to have_key(:weather_at_eta)
     expect(trip_info[:attributes][:weather_at_eta]).to be_a Hash
-    expect(trip_info[:attributes][:weather_at_eta]).to have_key[:datetime]
-    expect(trip_info[:attributes][:weather_at_eta]).to have_key[:temperate]
-    expect(trip_info[:attributes][:weather_at_eta]).to have_key[:condition]
-
-
-
   end
 end

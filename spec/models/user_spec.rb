@@ -9,7 +9,7 @@ RSpec.describe User do
 
   describe 'create user' do
     it 'creates user with api_key' do
-      user = User.create(email: 'test@email.com', password: 'test', password_confirmation: 'test')
+      user = User.create!(email: 'test@email.com', password: 'test', password_confirmation: 'test')
       expect(user.api_key).to be_present
     end
   end

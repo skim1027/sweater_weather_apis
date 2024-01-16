@@ -29,5 +29,24 @@ describe LocationService do
       expect(wash_dc_results[:locations][0][:latLng][:lat]).to eq(38.89037)
       expect(wash_dc_results[:locations][0][:latLng][:lng]).to eq(-77.03196)
     end
+
+    it 'gives you directions' do
+      directions_data = File.read('spec/fixtures/directions.json')
+      stub_request(:get, "https://www.mapquestapi.com/directions/v2/route?from=Denver,CO&key=#{Rails.application.credentials.mapquest[:key]}&to=Oregon,WA").
+      with(
+        headers: {
+       'Accept'=>'*/*',
+       'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+       'User-Agent'=>'Faraday v2.9.0'
+        }).
+      to_return(status: 200, body: directions_data, headers: {})
+      directions = LocationService.new.directions('Denver,CO', 'Oregon,WA')
+
+      expect(directions).to be_a(Hash)
+      expect(directions.keys).to match_array([:route, :info])
+      expect(directions[:route]).to be_a(Hash)
+      expect(directions[:route]).to have_key(:formattedTime)
+      expect(directions[:route]).to have_key(:time)
+    end
   end
 end

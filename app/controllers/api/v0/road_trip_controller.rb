@@ -3,19 +3,15 @@ class Api::V0::RoadTripController < ApplicationController
     user = User.find_by(api_key: params[:api_key])
     from = params[:origin]
     to = params[:destination]
-    if user
-      # lat_lon = LocationFacade.new.city_state(to).lat_lon
-      # total_travel_time = LocationFacade.new.directions(from, to).travel_time
-      # hours = LocationFacade.new.directions(from, to).time_in_hrs
-      # eta_time = (DateTime.now + hours.hours).strftime("%Y-%m-%d %H")
-      # weather = WeatherFacade.new.location_weather(lat_lon).weather_at_eta(eta_time)
+    if LocationService.new.directions(from, to)[:info][:statuscode] == 402
+      render json: RoadTripSerializer.impossible(from, to)
+    elsif user
       render json: RoadTripSerializer.data(weather(lat_lon(to), hours(from, to)), total_travel_time(from, to), from, to), status: :ok
     else
       render json: { errors: [title: "Please provide correct API key", status: "400"] }, status: :bad_request
     end
   end
 
-  # if user is not there, return error, direction !=, then error, 
 
   private
 

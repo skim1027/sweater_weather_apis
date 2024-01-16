@@ -16,4 +16,19 @@ class RoadTripSerializer
     }
   end
 
+  def self.impossible(from, to)
+    {
+      data: {
+        id: 'null',
+        type: 'road_trip',
+        attributes: {
+          start_city: from,
+          end_city: to,
+          travel_time: 'impossible',
+          weather_at_eta: []
+        }
+      }
+    }
+
+  end
 end

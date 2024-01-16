@@ -65,7 +65,7 @@ class Weather
     condition
     weather_data = {
       datetime: new_hrs,
-      temperate: temp,
+      temperature: temp,
       condition: condition
     }
   end

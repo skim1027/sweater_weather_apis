@@ -22,6 +22,7 @@ describe 'user registration' do
     expect(user_info).to have_key(:type)
     expect(user_info).to have_key(:attributes)
     expect(user_info[:attributes]).to have_key(:email)
+    expect(user_info[:attributes][:email]).to eq('whatever@example.com')
     expect(user_info[:attributes]).to have_key(:api_key)
     expect(user_info[:attributes]).to_not have_key(:password)
   end

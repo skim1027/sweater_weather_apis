@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'session' do
   it 'logs you in with the correct email and password' do
-    User.create(email: "whatever@example.com", password: "password")
+    user = User.create(email: "whatever@example.com", password: "password")
 
     user_params = {
                     email: "whatever@example.com",
@@ -23,7 +23,9 @@ describe 'session' do
     expect(user_info).to have_key(:type)
     expect(user_info).to have_key(:attributes)
     expect(user_info[:attributes]).to have_key(:email)
+    expect(user_info[:attributes][:email]).to eq(user.email)
     expect(user_info[:attributes]).to have_key(:api_key)
+    expect(user_info[:attributes][:api_key]).to eq(user.api_key)
     expect(user_info[:attributes]).to_not have_key(:password)
   end
 

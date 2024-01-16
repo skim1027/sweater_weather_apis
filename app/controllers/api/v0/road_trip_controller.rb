@@ -7,11 +7,12 @@ class Api::V0::RoadTripController < ApplicationController
       render json: RoadTripSerializer.impossible(from, to)
     elsif user
       render json: RoadTripSerializer.data(weather(lat_lon(to), hours(from, to)), total_travel_time(from, to), from, to), status: :ok
+    elsif params[:api_key] == nil
+      render json: { errors: [title: "Please provide an API key", status: "401"] }, status: :unauthorized
     else
       render json: { errors: [title: "Please provide correct API key", status: "401"] }, status: :unauthorized
     end
   end
-
 
   private
 
